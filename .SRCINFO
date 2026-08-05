@@ -1,0 +1,25 @@
+pkgbase = uvprotermbt-9m2pju-bin
+	pkgdesc = AX.25 packet messenger + terminal for BTech UV-Pro / VGC VR-N76 over Bluetooth KISS TNC (Prebuilt binary)
+	pkgver = 0.9.7
+	pkgrel = 1
+	url = https://github.com/9M2PJU/UVProTermBT
+	arch = x86_64
+	arch = aarch64
+	license = GPL-3.0-only
+	depends = glibc
+	depends = zlib
+	depends = hicolor-icon-theme
+	depends = bluez
+	depends = polkit
+	optdepends = fuse2: optional, for running original AppImage directly
+	optdepends = ax25-tools: AX.25 kernel utilities
+	provides = uvprotermbt
+	conflicts = uvprotermbt
+	conflicts = uvprotermbt-git
+	options = !strip
+	source_x86_64 = uvprotermbt-9m2pju-bin-0.9.7-x86_64.AppImage::https://github.com/9M2PJU/UVProTermBT/releases/download/v0.9.7/uvprotermbt-0.9.7-x86_64.AppImage
+	sha256sums_x86_64 = 911e752b77d377632e76952c6994a2c4db8769d734c28de325d33b63cae68415
+	source_aarch64 = uvprotermbt-9m2pju-bin-0.9.7-aarch64.AppImage::https://github.com/9M2PJU/UVProTermBT/releases/download/v0.9.7/uvprotermbt-0.9.7-aarch64.AppImage
+	sha256sums_aarch64 = 336231f4974b0a0d73425c0d78c7193cf82806c54210899187afb68d7f78b348
+
+pkgname = uvprotermbt-9m2pju-bin
